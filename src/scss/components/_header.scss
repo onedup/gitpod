@@ -1,3 +1,18 @@
 .header {
+  &__container{
+    @include flex-all-sb;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &__btn {
+    padding: 6px 23px;
+    border-radius: 12px;
+    background-color: var(--color-rangoon);
+    font-size: 14px;
+    line-height: 142.857143%; /* 20/14 */
+    color: var(--color-alabaster);
+  }
 
 }

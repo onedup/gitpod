@@ -3,12 +3,15 @@
 :root {
   // base
   --font-family: "Roboto", sans-serif;
-  --content-width: 1360px;
-  --container-offset: 40px;
+  --content-width: 1376px;
+  --container-offset: 32px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
   --color-light: #fff;
+  --color-rangoon: #12100c;
+  --color-alabaster: #f9f9f9;
+  --color-chicago: #565452;
 
 
 }

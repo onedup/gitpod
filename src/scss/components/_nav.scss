@@ -1,0 +1,11 @@
+.nav {
+  &__list {
+    display: flex;
+    gap: 48px;
+  }
+
+  &__link {
+      line-height: 150%; /* 24/16 */
+      color: var(--color-chicago);
+  }
+}
