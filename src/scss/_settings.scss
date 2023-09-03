@@ -120,15 +120,21 @@ a {
   color: var(--color-rangoon);
 }
 
-.subtitle{
-
+.subtitle {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 133%;
+  /* 71.82/54 */
+  color: var(--color-rangoon);
 }
 
-.subsubtitle{
+.subsubtitle {
   margin: 0;
   font-size: 32px;
   font-weight: 700;
-  line-height: 125%; /* 40/32 */
+  line-height: 125%;
+  /* 40/32 */
   color: var(--color-rangoon);
 }
 
